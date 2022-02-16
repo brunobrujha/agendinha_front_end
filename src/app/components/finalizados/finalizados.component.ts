@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router } from '@angular/core';
 import { Agendinha } from 'src/app/models/agendinha';
 import { AgendinhaService } from 'src/app/services/agendinha.service';
 
