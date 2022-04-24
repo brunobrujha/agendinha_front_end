@@ -2,7 +2,7 @@
   <h1>Criando um novo agendamento</h1>
   <mat-form-field class="data-finalizar" appearance="fill">
     <mat-label>Selecione a data</mat-label>
-    <input [(ngModel)]="agendinha.finalized" name="agendinha.finalized" matInput [matDatepicker]="dp3" disabled />
+    <input [(ngModel)]="agendinha.dateForFinish" name="agendinha.dateForFinish" matInput [matDatepicker]="dp3" disabled />
     <mat-datepicker-toggle matSuffix [for]="dp3"></mat-datepicker-toggle>
     <mat-datepicker #dp3 disabled="false"></mat-datepicker>
   </mat-form-field>
